@@ -74,8 +74,8 @@ _如果之前未使用過 Git，可以學習 [Git 小白教程](http://rogerdudl
 - [強制刪除 untracked 的目錄](#強制刪除-untracked-的目錄)
 - [顯示簡化的 commit 歷史](#顯示簡化的-commit-歷史)
 - [查看某段程式是誰寫的](#查看某段程式是誰寫的)
-- [把某一個分支到匯出成一個 bundle 檔案](#把某一個分支到匯出成一個 bundle 檔案)
-- [從某個 bundle 檔案建立本地儲存庫](#從某個 bundle 檔案建立本地儲存庫)
+- [把某一個分支到匯出成一個bundle檔案](#把某一個分支到匯出成一個bundle檔案)
+- [從某個bundle檔案建立本地儲存庫](#從某個bundle檔案建立本地儲存庫)
 - [執行 rebase 之前自動 stash](#執行-rebase-之前自動-stash)
 - [從遠端儲存庫根據 ID，拉下某一狀態，到本地分支](#從遠端儲存庫根據-ID-拉下某一狀態-到本地分支)
 - [詳細顯示一行中的修改](#詳細顯示一行中的修改)
@@ -531,13 +531,13 @@ git clean <directory-name> -df
 git log --pretty=oneline --graph --decorate --all
 ```
 
-## 把某一個分支到匯出成一個 bundle 檔案
+## 把某一個分支到匯出成一個bundle檔案
 
 ```sh
 git bundle create <file> <branch-name>
 ```
 
-## 從某個 bundle 檔案建立本地儲存庫
+## 從某個bundle檔案建立本地儲存庫
 
 建立一個本地儲存庫，同時新建一個分支，分支內容就是上面 `git bundle create` 命令匯出的分支內容
 
